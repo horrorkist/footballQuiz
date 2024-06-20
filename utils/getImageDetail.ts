@@ -2,7 +2,7 @@ const options = {
   method: "GET",
   headers: {
     "Content-Type": "application/json",
-    Authorization: "Bearer YZRHJ5lk4rMlUg5JDlFD23Jgi-lbtw9DNPGv_P7S",
+    Authorization: `Bearer ${process.env.CLOUDFLARE_TOKEN}`,
   },
 };
 
